@@ -1,0 +1,7 @@
+#! /bin/sh
+
+mulle-sde dependency add --if-missing \
+                         --latest \
+                         "https://github.com/libuv/libuv"
+mulle-sde dependency set libuv aliases uv
+mulle-sde dependency set libuv include uv.h
