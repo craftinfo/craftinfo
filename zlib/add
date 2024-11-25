@@ -1,0 +1,5 @@
+#! /bin/sh
+
+mulle-sde dependency add --if-missing --c --github madler zlib
+mulle-sde dependency set zlib aliases z
+mulle-sde dependency set zlib include zlib.h

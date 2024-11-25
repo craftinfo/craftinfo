@@ -1,0 +1,5 @@
+#
+# Map a user supplied name, to one of the known libraries.
+#
+libz=zlib
+z=zlib
